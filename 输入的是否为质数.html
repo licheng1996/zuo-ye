@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 输入需要判断数字
+        var n1=Number(prompt("请输入一个数"));
+        // 赋予函数实际的数值
+       ful(n1);
+    //    创建函数，命名和变量
+       function ful(a){
+        //    循环进行是否为质数的判断
+         for(i=2;i<n1;i++){
+
+            if(n1%i===0){
+                // 输出判断结果
+                alert(n1+"不是质数");
+                // 条件成立，跳过循环
+                break
+            }else{
+                // 输出判断结果
+                alert(n1+"是质数");
+                 // 条件成立，跳过循环
+                break
+            }
+        }
+    }
+    </script>
+</body>
+</html>
